@@ -1,0 +1,16 @@
+timestamp,operating_state,source_tank_level_m_relative_to_pump_CL,FT210_historian_indicated_flow_m3_per_h,PT401_suction_indicated_barg,PT404_packaging_hall_indicated_barg,pump_configuration,P101_input_kW,P102_input_kW,P103_input_kW,ambient_C,water_temperature_C,alarm_code,operator_note
+2026-05-12 06:00,non-production,1.95,19.0,0.44,3.48,P-101 only,30,0,0,18.5,19.0,,Stable night shift circulation.
+2026-05-12 10:00,normal production,1.72,62.0,0.31,3.28,P-101 + P-102 trim,74,13,0,19.0,20.0,,Packaging lines 1-3 operating.
+2026-05-12 14:00,normal production,1.54,65.0,0.28,3.24,P-101 + P-102 trim,75,15,0,19.5,20.5,,No alarms.
+2026-05-12 18:00,normal production,1.38,68.0,0.25,3.2,P-101 + P-102 trim,75,18,0,19.0,21.0,,Shift handover note still references legacy 2.6 barg hall minimum.
+2026-05-13 05:30,CIP washdown,0.92,82.0,0.17,3.11,P-101 + P-102 trim,75,31,0,18.0,28.0,,CIP return warming source tank.
+2026-05-13 06:10,CIP washdown,0.64,87.0,0.12,3.06,P-101 + P-102 trim,75,36,0,18.5,30.0,LOW_HALL_PRESSURE_WARNING,Brief pressure warning; no trip.
+2026-05-14 11:58,normal production,-1.42,71.0,0.08,3.18,P-101 + P-102 trim,75,19,0,21.0,30.5,,Tank level falling before packaging surge.
+2026-05-14 12:00:00,packaging peak event,-1.88,92.0,0.02,3.1,P-101 + P-102 trim,75,42,0,21.0,31.8,LOW_HALL_PRESSURE_WARNING,Packaging hall valve bank opened.
+2026-05-14 12:00:15,packaging peak event,-2.06,95.0,-0.01,3.07,P-101 + P-102 trim,75,48,0,21.0,32.0,LOW_HALL_PRESSURE_WARNING,Rattling noise reported near suction strainer.
+2026-05-14 12:00:30,packaging peak event,-2.18,96.0,-0.04,3.06,P-101 + P-102 trim,75,52,0,21.0,32.0,LOW_HALL_PRESSURE_ALARM,Operator reports gravel-like noise and elevated vibration.
+2026-05-14 12:00:45,packaging peak event,-2.2,96.0,-0.05,3.06,P-101 + P-102 trim,75,53,0,21.0,32.0,LOW_HALL_PRESSURE_ALARM,Minimum indicated packaging-hall pressure during event.
+2026-05-14 12:01:00,packaging peak event,-2.12,94.0,-0.03,3.08,P-101 + P-102 trim,75,51,0,21.0,31.9,LOW_HALL_PRESSURE_WARNING,Noise subsiding as surge ends.
+2026-05-14 12:01:30,normal production,-1.7,70.0,0.05,3.18,P-101 + P-102 trim,75,20,0,21.0,31.5,,Pressure recovered.
+2026-05-20 09:00,normal production,1.48,66.0,0.27,3.25,P-101 + P-102 trim,75,16,0,18.0,21.0,,Historian scaling correction not yet applied in export.
+2026-05-20 14:00,normal production,1.31,69.0,0.23,3.21,P-101 + P-102 trim,75,19,0,18.0,22.0,,No alarms.
